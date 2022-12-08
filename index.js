@@ -1,14 +1,8 @@
 
+input.addEventListener('click', function() {
 
-const message = document.getElementById('input');
+  return('I was clicked!')
 
-function clickAlert() {
-  alert('I was clicked!');
-}
+})
 
-beforeEach.addingEventListener('click', function() {
-  alert('I was clicked!')
-});
-
-
-
+const input = document.getElementById('input')
